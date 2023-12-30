@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Typewriter;
+    src: url(veteran_typewriter.ttf);
+}
+
+body {
+    background-image: linear-gradient(rgba(100, 65, 165, 0.80), rgba(42, 8, 69, 0.80)), url(fondo-typing.jpeg);
+    color: rgb(172, 151, 212);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Typewriter;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 60%;
+    border: 10px solid black;
+    border-radius: 30px;
+    background-color: rgb(71, 17, 71);
+}
+
+button {
+    font-family: Typewriter;
+    font-size: 150%;
+    background-color: rgb(172, 151, 212);
+    color: rgb(71, 17, 71);
+    border: 3px solid black;
+    border-radius: 30px;
+    padding: 2%;
+    cursor: pointer
+}
+
+button:hover {
+    border: 4px solid black;
+    background-color: rgb(151, 120, 209);
+}
+
+input {
+    padding: 1%;
+    
+    font-family: Typewriter;
+    background-color: rgb(174, 156, 207);
+}
+
+#randomWord {
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 960px) {
+
+    button {
+        font-size: 120%;
+    }
+
+    #randomWord {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 475px) {
+
+    button {
+        font-size: 100%;
+    }
+
+    #randomWord {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+}
+
+
